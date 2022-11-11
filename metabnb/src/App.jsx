@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import Header from './Header'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
+import Home from './Home'
 
 function App() {
   const [count, setCount] = useState()
@@ -11,7 +12,7 @@ function App() {
     <div className="App">
      <Header></Header>
 <Routes>
-<Route></Route>
+<Route path='' element={<Home/>}></Route>
 </Routes>
     </div>
   )
