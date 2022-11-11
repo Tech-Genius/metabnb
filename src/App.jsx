@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import Header from './Header'
+import Header from './components/Header'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-import Home from './Home'
-import NotFound from './404'
+import Home from './components/Home'
+import NotFound from './components/404'
 
 function App() {
 

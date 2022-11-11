@@ -1,10 +1,10 @@
 import react from 'react'
-import './Header.css'
+import './css/Header.css'
 import { useState } from 'react'
 import { GiHouse } from "react-icons/gi";
 import { Link } from 'react-router-dom';
-import logoicon from './assets/Vector.png'
-import logotext from './assets/Vector (1).png'
+import logoicon from './images/Vector.png'
+import logotext from './images/Vector (1).png'
 import { HiBars3BottomRight } from "react-icons/hi2";
 import { GiCancel } from "react-icons/gi";
 function Header() {
