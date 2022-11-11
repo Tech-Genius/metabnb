@@ -10,7 +10,6 @@ import { GiCancel } from "react-icons/gi";
 function Header() {
 
     const [isNavExpanded, setIsNavExpanded] = useState(false)
-
     return (
         <div className="header">
             <div className="header_inner">
