@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Changa&family=Inter:wght@300;400&family=Red+Rose:wght@600&family=Work+Sans&display=swap');
+
+.home_wrapper{
+    display: grid;
+    margin-top: 50px;
+    font-family: 'Red Rose', cursive;
+}
+
+/* rent */
+.rent{
+    width: 87%;
+    justify-self: center;
+
+}
+
+.rent_inner{
+    display: grid;
+    grid-template-columns: 1.7fr 1fr;
+}
+
+.rent_item{
+    display: grid;
+
+
+}
+.rent_item#txt{
+    width: fit-content;
+}
+.rent_item#txt h3{
+    color: #434343;
+   font-size: 50px;
+   margin: 0;
+}
+.rent_item#txt p{
+    color: #434343;
+   font-size: 20px;
+   margin: 0 !important;
+}
+.rent_item#txt h3 span{
+    background-image: linear-gradient( #A02279 60%, #A02279 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.search{
+    display: flex;
+    width: 100%;
+    border: 1px solid #A3A3A3;
+    border-radius: 10px;
+background: rgba(247, 247, 247, 0.1);
+height: fit-content;
+}
+.search_input{
+border: none;
+width: 100%;
+outline: none;
+border-radius: 10px;
+color: #B8B8B8;
+font-family: 'Red Rose', cursive;
+padding: 0px 20px;
+}
+.search button{
+    background-image: linear-gradient( #A02279 60%, #A02279 100%);
+    color: white;
+    width: 70%;  
+    padding: 15px 0px;
+    border-radius: 0px 10px 10px 0px;
+    outline: none !important;
+    border: none;
+    font-family: 'Red Rose', cursive;
+}
+
+
+
+.rent_item#img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.image_down{
+    margin-top: 80px;
+}
+.image_down, .image_up{
+    width: 97%;
+    justify-self: center;
+}
+.image_down img, .image_up img{
+    width: 100%;
+
+}
+
+
+/*rent */
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    .rent_inner{
+        grid-template-columns: 1fr 1fr;
+    }
+    .rent_item{
+        width: 95%;
+        justify-self: center;
+    }
+    .image_down, .image_up{
+        width: 95%;
+        justify-self: center;
+    }
+
+
+}
+
+@media screen and (max-width:950px){
+
+.rent_item#txt h3{
+    font-size: 30px;
+
+}
+.rent_item#txt p{
+    font-size: 18px;  
+}
+.rent_item#txt h3{
+    margin-bottom: 10px;
+}
+.search{
+    margin-top: 10px;
+}
+
+}
+
+
+@media screen and (max-width:767px){
+
+.rent_inner{
+    grid-template-columns: 1fr;
+}
+.rent_item#img{
+    padding-top: 30px;
+}
+.image_down{
+    margin-top: 0;
+}
+    
+    }
