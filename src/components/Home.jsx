@@ -19,6 +19,9 @@ import image17 from './images/slant1.png'
 import image18 from './images/slant2.png'
 import image19 from './images/slant3.png'
 import image20 from './images/slants.png'
+import image21 from './images/Group 59537.png'
+import image22 from './images/Group 4040.png'
+import image23 from './images/Frame 4041.png'
 import { FaStar } from "react-icons/fa";
 function Home() {
     return (
@@ -59,27 +62,23 @@ function Home() {
                 <div className="tokens_inner">
                     <div className="token_item">
                         <div className="token_item_in">
-                            <div className="has_background">
-                                <img src={image5} alt="" />
-                            </div>
+                            
 
-                            <img src={image6} alt="" />
+                            <img src={image21} alt="" />
                         </div>
                     </div>
 
                     <div className="token_item">
                         <div className="token_item_in">
-                            <img src={image8} alt="" id='metamask' />
-                            <h3>METAMASK</h3>
+                            <img src={image22} alt="" />
+                           
                         </div>
                     </div>
 
                     <div className="token_item">
                         <div className="token_item_in">
-                            <div className="has_background">
-                                <img src={image8} alt="" />
-                            </div>
-                            <img src={image7} alt="" />
+
+                            <img src={image23} alt="" />
                         </div>
                     </div>
                 </div>
