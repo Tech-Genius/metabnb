@@ -15,6 +15,10 @@ import image13 from './images/Frame 151 4.png'
 import image14 from './images/Frame 151 5.png'
 import image15 from './images/Frame 151 6.png'
 import image16 from './images/Frame 151 7.png'
+import image17 from './images/slant1.png'
+import image18 from './images/slant2.png'
+import image19 from './images/slant3.png'
+import image20 from './images/slants.png'
 import { FaStar } from "react-icons/fa";
 function Home() {
     return (
@@ -65,6 +69,7 @@ function Home() {
 
                     <div className="token_item">
                         <div className="token_item_in">
+                            <img src={image8} alt="" id='metamask' />
                             <h3>METAMASK</h3>
                         </div>
                     </div>
@@ -287,6 +292,20 @@ function Home() {
                 </div>
             </div>
 
+            <div className="nfts">
+                <div className="nfts_inner">
+                    <div className="nfts_item" id='txt'>
+                        <h3>Metabnb NFTs</h3>
+                        <p>Discover our NFT gift cards collection. Loyal <br /> customers gets amazing gift cards which are <br /> traded as NFTs. These NFTs gives our cutomer <br /> access to loads of our exclusive services.</p>
+                        <button>Learn More</button>
+                    </div>
+
+                    <div className="nfts_item" id='img'>
+<img src={image20} alt="" />
+
+                    </div>
+                </div>
+            </div>
 
         </div>
     )
