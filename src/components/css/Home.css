@@ -91,9 +91,119 @@ padding: 0px 20px;
 /*rent */
 
 
+/* tokens */
+
+.tokens{
+    margin-top: 50px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    padding: 10px 0px;
+    display: grid;
+}
+
+.tokens_inner{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.token_item{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+.token_item_in{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.token_item_in h3{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 100 !important;
+    letter-spacing: 3px;
+}
+
+.has_background{
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px 12px;
+    margin-right: 10px;
+    display: flex;
+    place-items: center;
+}
+.has_background img{
+    height: 20px;
+}
+
+/* tokens */
 
 
 
+/* inspiration */
+.inspiration{
+    display: grid;
+    margin-top: 30px;
+}
+.inspiration_heading h3{
+color: #000000;
+font-size: 40px;
+text-align: center;
+
+}
+
+.inspiration_inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    width: 90%;
+    justify-self: center;
+    place-items: center;
+    justify-content: center;
+}
+.inspiration_item{
+    border: 1px #D7D7D7 solid;
+    border-radius: 15px;
+    margin: 20px 10px;
+    min-width: 23%;
+    justify-self: center;
+ 
+}
+.inspiration_inner img{
+    width: 100%;
+    height: 300px;
+}
+.inspiration_box{
+    padding: 15px;
+}
+
+.inspiration_text{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    width: 100%;
+}
+.insp_text2{
+    text-align: end;
+}
+.inspiration_text p, .inspiration_text h6{
+    margin: 5px;
+    font-size: 12.5px;
+}
+
+.insp_icon{
+    color: #A02279;
+    margin: 0px 5px;
+}
+/* inspiration */
+
+
+
+
+
+
+
+
+/* media queries */
 
 
 @media screen and (max-width:1200px){
@@ -112,6 +222,19 @@ padding: 0px 20px;
 
 }
 
+
+@media screen and (max-width:1050px){
+    .inspiration_inner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+
+
 @media screen and (max-width:950px){
 
 .rent_item#txt h3{
@@ -128,6 +251,17 @@ padding: 0px 20px;
     margin-top: 10px;
 }
 
+.token_item_in img{
+    height: 25px;
+}
+.has_background img{
+    height: 17px;
+}
+
+
+.token_item_in h3{
+    font-size: 25px;
+}
 }
 
 
@@ -142,5 +276,26 @@ padding: 0px 20px;
 .image_down{
     margin-top: 0;
 }
+.tokens_inner{
+    grid-template-columns: 1fr;
+}
+.token_item{
+    margin: 10px 0px;
+    place-content: start;
+}
+.token_item_in img{
+    height: 20px;
+}
+.has_background img{
+    height: 15px;
+}
+
+.inspiration_heading h3{
+   font-size: 30px;
+    }
+
+    .inspiration_box img{
+        height: 250px;
+    }
     
     }
