@@ -1,6 +1,6 @@
 import './css/Footer.css'
-import logoicon from './images/Vector (2).png'
-import logotext from './images/Vector (3).png'
+import logoicon from './images/Vector 2.png'
+import logotext from './images/Vector 3.png'
 import { GrFacebookOption, GrTwitter, GrInstagram} from "react-icons/gr";
 import { Link } from 'react-router-dom';
 function Footer(){
