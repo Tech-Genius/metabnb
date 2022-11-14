@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&family=Changa&family=Inter:wght@300;400&family=Red+Rose&family=Work+Sans&display=swap');
 
 .place_to_stay{
+    margin-top: 50px;
    display: grid; 
+   margin-bottom: 70px;
 }
 .place_to_stay_inner{
     width: 87%;
@@ -21,4 +23,75 @@
 .filter_items p{
     font-family: 'Red Rose', cursive;
     margin-right: 20px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+#flt_icon{
+    margin-left: 50px;
+    font-size: 20px;
+    transform: rotate(90deg);
+}
+
+p#flt{
+    border: 1px solid #B4B4B4;
+ border-radius: 10px; 
+ place-items: center; 
+ display: flex;
+}
+
+.filter_name p{
+    font-family: 'Red Rose', cursive;
+    margin-right: 20px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.filter_name{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+    .filter_items{
+        display: none;
+    }
+ 
+    .filter_name{
+        display: block;
+    }
+    .filter_name p{
+        width: fit-content;
+    }
+
+    .filter_inner{
+        display: grid;
+    }
+ .flt_lg{
+    display: none !important;
+ }
+    .filter_items_sm{
+        margin-right:0px ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       width:95%;
+    }
+
+    .filter_items_sm p{
+        margin:  10px;
+        border: 1px dotted #B4B4B4;
+        padding: 15px 10px;
+        cursor: pointer;
+    }
 }
