@@ -204,6 +204,13 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .header {
+        display: grid;
+        overflow: hidden;
+        height: 100px;
+    }
+    
+
     .menu {
         display: none;
     }
