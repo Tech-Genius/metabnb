@@ -142,18 +142,7 @@ img#metamask {
     letter-spacing: 3px;
 }
 
-.has_background {
-    background-color: white;
-    border-radius: 50%;
-    padding: 10px 12px;
-    margin-right: 10px;
-    display: flex;
-    place-items: center;
-}
 
-.has_background img {
-    height: 20px;
-}
 
 /* tokens */
 
@@ -347,7 +336,7 @@ margin-top: 50px;
     }
 
     .token_item_in img {
-        height: 25px;
+        height: 30px;
     }
 
     .has_background img {
@@ -390,16 +379,9 @@ margin-top: 50px;
     }
 
     .token_item_in img {
-        height: 20px;
+        height: 25px;
     }
 
-    .has_background img {
-        height: 15px;
-    }
-
-    img#metamask {
-        height: 30px;
-    }
 
     .inspiration_heading h3, .nfts_item h3{
         font-size: 30px;
@@ -416,9 +398,13 @@ margin-top: 50px;
     .nfts_inner{
         grid-template-columns: 1fr;
     }
+    .nfts{
+        padding: 80px 0px;
+    }
     .nfts_item#img{
         text-align: center;
         grid-row: 1;
+        width: 80%;
     }
     .nfts_item{
         margin: 20px 0px;

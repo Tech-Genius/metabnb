@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Changa&family=Inter:wght@300;400&family=Red+Rose&family=Work+Sans&display=swap');
+
+.place_to_stay{
+   display: grid; 
+}
+.place_to_stay_inner{
+    width: 87%;
+    justify-self: center;
+}
+.filter_inner{
+    display: flex;
+    justify-content: space-between;
+}
+.filter_items{
+    margin-right:30px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   width:85%;
+}
+.filter_items p{
+    font-family: 'Red Rose', cursive;
+    margin-right: 20px;
+}

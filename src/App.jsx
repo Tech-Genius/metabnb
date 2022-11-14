@@ -6,6 +6,8 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
 import NotFound from './components/404'
 import Footer from './components/Footer'
+import PlaceToStay from './components/PlaceToStay'
+
 
 function App() {
 
@@ -18,6 +20,7 @@ function App() {
 <Routes>
 <Route path='/' element={<Home />} />
 <Route path='*' element={<NotFound />}/>
+<Route path='place-to-stay' element={<PlaceToStay />}/>
 </Routes>
 <Footer></Footer>
     </div>

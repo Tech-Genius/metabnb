@@ -32,8 +32,8 @@ function Header() {
                     <div className={isNavExpanded ? 'sm' : 'header_item menu'}>
                         <div className="menu_items">
                             <ul className='items' >
-                                <Link><li className="item">Home</li></Link>
-                                <Link><li className="item">Place To Stay</li></Link>
+                                <Link to={''}><li className="item">Home</li></Link>
+                                <Link to={'place-to-stay'}><li className="item">Place To Stay</li></Link>
                                 <Link><li className="item">NFTs</li></Link>
                                 <Link><li className="item">Community</li></Link>
                                 <div className="connect_button " id='sm_screen'>
