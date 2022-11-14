@@ -20,7 +20,7 @@ function Header() {
             <div className="header">
                 <div className="header_inner">
                     <div className="header_item">
-                        <Link>
+                        <Link to={''}>
                             <div className="logo">
                                 <img src={logotext} alt="" />
                                 <img src={logoicon} alt="" />
@@ -38,8 +38,8 @@ function Header() {
                                 <Link><li className="item">Community</li></Link>
                                 <div className="connect_button " id='sm_screen'>
                                     <button onClick={() => {
-                                setIsConnectBox(!isConnectBox)
-                            }} >Connect Wallet</button>
+                                        setIsConnectBox(!isConnectBox)
+                                    }} >Connect Wallet</button>
                                 </div>
                             </ul>
                         </div>
@@ -48,9 +48,9 @@ function Header() {
                     <div className="header_item">
                         <div className="connect_button">
                             <button
-                            onClick={() => {
-                                setIsConnectBox(!isConnectBox)
-                            }}>Connect Wallet</button>
+                                onClick={() => {
+                                    setIsConnectBox(!isConnectBox)
+                                }}>Connect Wallet</button>
                         </div>
                     </div>
 
@@ -64,36 +64,36 @@ function Header() {
 
                 </div>
             </div>
-<div className= {isConnectBox ? 'connect_wrapper' : 'connect_wrapper_not'}>
-            <div className="connect">
-                <div className="connect_heading">
-                    <h3>Connect Wallet</h3>
-                    <FaTimes id='right'  onClick={() => {
-                                setIsConnectBox(!isConnectBox)
-                            }}/>
-                </div>
-                <hr id='border_btm'/>
-                <div className="connect_inner">
-                    <div className="choose">
-                        <p>Choose your preferred wallet:</p>
+            <div className={isConnectBox ? 'connect_wrapper' : 'connect_wrapper_not'}>
+                <div className="connect">
+                    <div className="connect_heading">
+                        <h3>Connect Wallet</h3>
+                        <FaTimes id='right' onClick={() => {
+                            setIsConnectBox(!isConnectBox)
+                        }} />
                     </div>
-                    <div className="connect_item" tabIndex={0}>
-                        <div className="connect_item_inner">
-                            <img src={metalogo} alt="" />
-                            <h3>Metamask</h3>
+                    <hr id='border_btm' />
+                    <div className="connect_inner">
+                        <div className="choose">
+                            <p>Choose your preferred wallet:</p>
                         </div>
-                        <MdOutlineNavigateNext id='right' />
-                    </div>
+                        <div className="connect_item" tabIndex={0}>
+                            <div className="connect_item_inner">
+                                <img src={metalogo} alt="" />
+                                <h3>Metamask</h3>
+                            </div>
+                            <MdOutlineNavigateNext id='right' />
+                        </div>
 
-                    <div className="connect_item" tabIndex={1}>
-                        <div className="connect_item_inner">
-                            <img src={walletlogo} alt="" />
-                            <h3>WalletConnect</h3>
+                        <div className="connect_item" tabIndex={1}>
+                            <div className="connect_item_inner">
+                                <img src={walletlogo} alt="" />
+                                <h3>WalletConnect</h3>
+                            </div>
+                            <MdOutlineNavigateNext id='right' />
                         </div>
-                        <MdOutlineNavigateNext id='right' />
                     </div>
                 </div>
-            </div>
             </div>
         </>
     )

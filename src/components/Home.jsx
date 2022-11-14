@@ -22,6 +22,7 @@ import image20 from './images/slants.png'
 import image21 from './images/Group 59537.png'
 import image22 from './images/Group 4040.png'
 import image23 from './images/Frame 4041.png'
+import image24 from './images/Group 4028.png'
 import { FaStar } from "react-icons/fa";
 function Home() {
     return (
@@ -41,15 +42,7 @@ function Home() {
 
 
                     <div className="rent_item" id='img'>
-                        <div className="image_down">
-                            <img src={image1} alt="" />
-                            <img src={image2} alt="" />
-                        </div>
-
-                        <div className="image_up">
-                            <img src={image3} alt="" />
-                            <img src={image4} alt="" />
-                        </div>
+                        <img src={image24} alt="" />
                     </div>
 
                 </div>
@@ -62,7 +55,7 @@ function Home() {
                 <div className="tokens_inner">
                     <div className="token_item">
                         <div className="token_item_in">
-                            
+
 
                             <img src={image21} alt="" />
                         </div>
@@ -71,7 +64,7 @@ function Home() {
                     <div className="token_item">
                         <div className="token_item_in">
                             <img src={image22} alt="" />
-                           
+
                         </div>
                     </div>
 
@@ -300,7 +293,7 @@ function Home() {
                     </div>
 
                     <div className="nfts_item" id='img'>
-<img src={image20} alt="" />
+                        <img src={image20} alt="" />
 
                     </div>
                 </div>
